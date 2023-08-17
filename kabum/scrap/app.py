@@ -10,8 +10,6 @@ link = 'https://www.kabum.com.br/hardware'
 webpage = requests.get(link, timeout=10)
 soup = BeautifulSoup(webpage.content, 'html.parser')
 
-informacao_pagamento = soup.find_all('div', class_='sc-3b515ca1-0 gyJsdF availablePricesCard')
-
 produtos = soup.find_all('div', class_='sc-d55b419d-11 hJDLPs')
 
 

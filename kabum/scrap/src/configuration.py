@@ -11,7 +11,7 @@ MONGODB = {
 }
 KABUMLINKS = {
     'base_link' : os.getenv('BASE_LINK', 'https://www.kabum.com.br'),
-    'books_page_link': os.getenv(
+    'hardware_page_link': os.getenv(
         'HARDWARE_PAGE_LINK',
         '/hardware'
     )
