@@ -9,6 +9,5 @@ def make_request(link, retries=0):
         soup = BeautifulSoup(webpage.content, 'html.parser')
         return(soup)
 
-
     except: 
         print('Erro')
