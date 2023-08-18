@@ -20,5 +20,7 @@ class GetCategories:
             dataframe = pd.concat([dataframe, pd.DataFrame(
                 data = {'link': [link_categoria], 'nome_categoria' : [nome_categoria]})], ignore_index=True)
             
+            print(f'----->{nome_categoria}<-----')
+            
         return dataframe
             
